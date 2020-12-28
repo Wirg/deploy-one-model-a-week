@@ -13,8 +13,6 @@ from tensorflow.python.keras.utils import data_utils
 
 PREDICTION_CACHE_TIME = 60 * 60
 
-model_name = "EfficientNetB2"
-
 st.markdown(
     """
 # Week 1
