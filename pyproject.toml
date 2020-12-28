@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "deploy-one-model-a-week"
+version = "0.1.0"
+description = "Challenging myself to deploy one model a week with streamlit and tensorflow"
+authors = ["Wirg"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tensorflow = "^2.4"
+streamlit = "^0.73.1"
+pandas = "^1.2.0"
+stqdm = "^0.0.3"
+tf-explain = "^0.2.1"
+opencv-python = "^4.4.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
