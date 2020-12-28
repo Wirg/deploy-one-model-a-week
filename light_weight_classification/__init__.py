@@ -17,7 +17,7 @@ st.markdown(
     """
 # Week 1
 This week, we are deploying a simple ImageNetClassifier using EfficientNetB2 in tf.keras.applications.
-We explain the classification thanks to OcclusionSensitivity in tf_explain.
+We explain the classification thanks to lime.
 """
 )
 
