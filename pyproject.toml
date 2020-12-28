@@ -12,9 +12,12 @@ pandas = "^1.2.0"
 stqdm = "^0.0.3"
 tf-explain = "^0.2.1"
 opencv-python = "^4.4.0"
+lime = "^0.2.0"
+scikit-image = "^0.18.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.4"
+black = "^20.8b1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
