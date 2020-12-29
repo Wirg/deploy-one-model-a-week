@@ -14,10 +14,21 @@ tf-explain = "^0.2.1"
 opencv-python = "^4.4.0"
 lime = "^0.2.0"
 scikit-image = "^0.18.1"
+matplotlib = "^3.3.3"
+PyYAML = "^5.3.1"
+scipy = "^1.5.4"
+seaborn = ">=0.11"
+Cython = {version = "^0.29.21", extras = ["torch-yolov5"]}
+torch = {version = ">=1.7", extras = ["torch-yolov5"]}
+torchvision = {version = ">=0.8", extras = ["torch-yolov5"]}
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.4"
 black = "^20.8b1"
+
+[tool.poetry.extras]
+torch-yolov5 = ["Cython", "torch", "torchvision"]
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
