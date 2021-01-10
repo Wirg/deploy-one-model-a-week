@@ -19,15 +19,19 @@ PyYAML = "^5.3.1"
 scipy = "^1.5.4"
 seaborn = ">=0.11"
 Cython = {version = "^0.29.21", extras = ["torch-yolov5"]}
-torch = {version = ">=1.7", extras = ["torch-yolov5"]}
-torchvision = {version = ">=0.8", extras = ["torch-yolov5"]}
+torch = ">=1.7"
+torchvision = ">=0.8"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.8.4"
 black = "^20.8b1"
+onnx = "^1.8.0"
+protobuf = "^3.14.0"
+tf2onnx = "^1.7.2"
+onnx-tf = "^1.7.0"
 
 [tool.poetry.extras]
-torch-yolov5 = ["Cython", "torch", "torchvision"]
+torch-yolov5 = ["Cython"]
 
 
 [build-system]
